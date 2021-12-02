@@ -1,6 +1,4 @@
-# Communcating Wirelessly with TouchDesigner
-
-## Arduino UDP Sending Sensor Values to TouchDesigner
+# Sending Arduino Values to TouchDesigner via UDP over WiFi
 
 The following write up will show how to combine sample code from various sources to send multiple IMU sensor values from the [Arduino Nano 33 IoT](https://store-usa.arduino.cc/products/arduino-nano-33-iot) to be read and interpreted in [TouchDesigner](https://derivative.ca/)
 
