@@ -76,6 +76,8 @@ void setup() {
   Serial.begin(9600);
   while (!Serial) {
     ; // wait for serial port to connect. Needed for native USB port only
+      // this will freeze your code until there is a serial connection (Open serial monitor)
+      // comment out or remove this while loop if you do not need serial connection / serial monitor
   }
 
   // check for the WiFi module:
